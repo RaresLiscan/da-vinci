@@ -37,7 +37,7 @@ function App() {
           if (init === false) {
               // initFirebase();
               if (authProvider.isAuthenticated()) {
-                  // setAuthenticated(true);
+                  setAuthenticated(true);
                   // history.push('/');
               }
               setInit(true);
